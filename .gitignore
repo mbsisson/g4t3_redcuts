@@ -1,9 +1,34 @@
-venv/
+# Byte-compiled / optimized files
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.pyd
-.ipynb_checkpoints/
-.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS-specific stuff
 .DS_Store
-*.sqlite3
+Thumbs.db
+
+# IDE/editor configs (unless you want to share)
+.vscode/
+.idea/
+
+# Archive
+archive/
+
+# Images
+*.png
